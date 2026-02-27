@@ -1,5 +1,5 @@
 using System;
-namespace Game.main.core
+namespace Game.main.core.data
 {
 
     //the client should never create/modify this struct
