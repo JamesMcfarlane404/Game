@@ -28,3 +28,4 @@ C:\Users\james\OneDrive\Desktop\Game\bin\Debug\net10.0\runtimes\osx\native\libci
 C:\Users\james\OneDrive\Desktop\Game\bin\Debug\net10.0\runtimes\win-arm64\native\cimgui.dll
 C:\Users\james\OneDrive\Desktop\Game\bin\Debug\net10.0\runtimes\win-x64\native\cimgui.dll
 C:\Users\james\OneDrive\Desktop\Game\bin\Debug\net10.0\runtimes\win-x86\native\cimgui.dll
+C:\Users\james\OneDrive\Desktop\Game\obj\Debug\net10.0\Game.sourcelink.json
