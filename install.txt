@@ -1,0 +1,13 @@
+winget install Microsoft.DotNet.SDK.8
+
+
+dotnet add package Raylib-cs
+dotnet add package LiteNetLib
+dotnet add package ImGui.NET
+dotnet add package rlImgui-cs --version 3.2.0
+
+add c# editor extensions to visual studio code
+
+"dotnet run" executes the current dev project
+
+"dotnet build" packages the project into an exe
