@@ -1,4 +1,5 @@
 using System;
+using LiteNetLib.Utils;
 namespace Game.main.core.data
 {
 
@@ -27,6 +28,7 @@ namespace Game.main.core.data
 
 
         public float damage_mod;
+
 
 
         public float getDamageAmount()

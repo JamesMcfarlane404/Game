@@ -33,7 +33,7 @@ namespace Game.main.core.net
 
         public void Deserialize(NetDataReader reader)
         {
-            throw new NotImplementedException();
+
         }
 
         public void Serialize(NetDataWriter writer)
