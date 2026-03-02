@@ -5,7 +5,7 @@ namespace Game.main.core.net
 
     class Packet<T> : INetSerializable
     {
-        T data;
+        T data { get; set; }
 
         Side current;
         public Packet()
@@ -38,7 +38,7 @@ namespace Game.main.core.net
 
         public void Serialize(NetDataWriter writer)
         {
-            throw new NotImplementedException();
+
         }
     }
 
