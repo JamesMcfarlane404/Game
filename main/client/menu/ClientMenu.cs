@@ -5,15 +5,12 @@ namespace Game.main.client.menu
 {
 
 
-    class ClientMenu
+    abstract class ClientMenu
     {
 
 
 
-        public void render(float delta, INetInterface inter)
-        {
-
-        }
+        public abstract void render(float delta, INetInterface inter);
 
         public void onShow()
         {
@@ -74,7 +71,12 @@ namespace Game.main.client.menu
 
             if (current != null)
             {
+                Console.WriteLine("current exists");
                 current.render(delta, inter);
+            }
+            else
+            {
+                Console.WriteLine("current is null");
             }
 
 

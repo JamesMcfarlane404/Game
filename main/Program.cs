@@ -4,6 +4,8 @@ using rlImGui_cs;
 
 using Game.main.server;
 using Game.main.client;
+
+using Game.main.client.menu;
 class Program
 {
     static void Main()
@@ -12,8 +14,8 @@ class Program
         Raylib.SetTargetFPS(-1);
 
         rlImGui.Setup(true);
-
-
+        ClientMenu.createMenu("main", new MainMenu());
+        ClientMenu.show("main");
         while (!Raylib.WindowShouldClose())
         {
 
@@ -28,7 +30,7 @@ class Program
 
 
 
-
+            ClientMenu.renderCurrent(0, null);
 
 
             rlImGui.End();
